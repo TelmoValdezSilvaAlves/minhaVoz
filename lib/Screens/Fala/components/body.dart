@@ -15,7 +15,7 @@ class Body extends StatelessWidget {
     _speak(String text) async {
       await flutterTts.setLanguage('pt-PT');
       await flutterTts.setPitch(1);
-      await flutterTts.setSpeechRate(0.50);
+      await flutterTts.setSpeechRate(0.80);
       await flutterTts.setVolume(1);
       await flutterTts.speak(text);
     }
